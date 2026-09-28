@@ -14,6 +14,21 @@ O frontend se comunica em tempo real com a **[AgentPulse API (FastAPI)](https://
 
 ---
 
+## 🎬 Demonstração Visual em Ação
+
+<!-- Coloque sua gravação em agentpulse-web/docs/agentpulse-demo.gif -->
+<p align="center">
+  <img src="docs/agentpulse-demo.gif" alt="AgentPulse Demo - ReAct Traces & LLMOps Telemetry" width="100%" />
+</p>
+
+> **Destaques da Demonstração (30 a 45s):**
+> 1. **Execução Assíncrona:** Disparo no Playground com resposta imediata HTTP `202 Accepted` e polling progressivo com spinner de status.
+> 2. **Ciclo ReAct Auditável:** Transição com 1 clique para o *TraceViewer* inspecionando a árvore `THOUGHT` ➔ `TOOL_CALL` ➔ `TOOL_RESULT` ➔ `FINAL_ANSWER`.
+> 3. **Telemetria de Custos em Tempo Real:** Medição precisa de tokens consumidos e tarifação em USD baseada no modelo selecionado (*Gemini 2.5 Flash*).
+> 4. **Dashboard de Governança:** Visão unificada de SLA (taxa de sucesso), latência média e distribuição de ferramentas mais acionadas (*Recharts*).
+
+---
+
 ## ✨ Funcionalidades Principais
 
 1. 📊 **Dashboard Analítico de LLMOps:**
